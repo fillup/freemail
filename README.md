@@ -4,6 +4,10 @@ a person's email address belongs to a free/public email service, ex: `gmail.com`
 rather than compiling yet another list and adding this exact same logic into each app 
 I need it in, here's a small and simple standalone package I can use. 
 
+## Build / test status
+[![Go](https://github.com/fillup/freemail/actions/workflows/go.yml/badge.svg)](https://github.com/fillup/freemail/actions/workflows/go.yml)
+[![Go Report Card](https://goreportcard.com/badge/github.com/fillup/freemail)](https://goreportcard.com/report/github.com/fillup/freemail)
+
 ## Usage
 
 ```go
