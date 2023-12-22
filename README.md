@@ -46,6 +46,10 @@ not already included in this package's default list, please open a PR to add it,
 an issue. I'll try to get things updated quickly, but in the meantime both the `IsFreeEmail`
 and `IsFreeDomain` methods support providing additional domains for consideration as well.  
 
+## Thanks / Credit
+The list of domains in this package comes from https://gist.github.com/ammarshah/f5c2624d767f91a7cbdc4e54db8dd0bf, 
+so big thanks to @ammarshah for doing the harder work of consolidating other lists!
+
 ## License
 MIT License
 
