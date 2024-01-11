@@ -39,6 +39,12 @@ func TestIsFreeDomain(t *testing.T) {
 			additional: nil,
 			want:       true,
 		},
+		{
+			name:       "in additional list with mixed case and padding",
+			domain:     " myDomain.com    ",
+			additional: []string{" myDOMAIN.com"},
+			want:       true,
+		},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {

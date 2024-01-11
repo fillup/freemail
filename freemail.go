@@ -17,7 +17,7 @@ func IsFreeDomain(domain string, additional ...string) bool {
 		return true
 	}
 	for _, v := range additional {
-		if v == d {
+		if strings.ToLower(strings.TrimSpace(v)) == d {
 			return true
 		}
 	}
